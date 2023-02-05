@@ -1,0 +1,53 @@
+@media only screen and (max-width: 767px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    header .navigation a {
+        padding: 5px;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    
+    .banner-section {
+      height: 400px;
+    }
+    
+    .banner-cont {
+      top: 35px;
+      height: 350px;
+      padding: 20px;
+      left: 0;
+      width: 100%;
+      border-radius: 0;
+    }
+    
+    .banner-cta {
+      top: 20px;
+      right: 0;
+      max-width: 50px;
+    }
+  
+    .about {
+        width: 80%;
+    }
+    .subscribe input[type="email"],
+    .subscribe button {
+      width: 50%;
+    }
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .footer-icon a{
+        width: 50%;
+        font-weight: 200;
+    }
+    }
+  
